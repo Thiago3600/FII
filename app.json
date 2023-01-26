@@ -17,13 +17,20 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-3565204663695646~8931573506"
+      }
     },
     "android": {
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-3565204663695646~8931573506"
+      },
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.thiagos3600.FII"
     },
     "web": {
       "favicon": "./assets/favicon.png"
